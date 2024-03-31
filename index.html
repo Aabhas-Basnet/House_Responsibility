@@ -1,0 +1,278 @@
+<html>
+
+<head>
+ <title>Home Sweet Home</title>
+</head>
+
+<body>
+<nav class="Nav_bar common">
+  <h1>House Responsibility Routine (HRR)</h1>
+  <h2>134 Cashel Street, St Marys, SA, 5042</h2>
+ </nav>
+
+ <img src="House.png" id="image"></div>
+ 
+<section class="sec1 common">
+ <div class="RPW">
+    <center><h1 style="margin-top:5%;">Responsible person for the week: </h1></center>
+    <div class="Name common">
+	  <h1 id="RPW"></h1>
+	</div>
+
+	
+	<div class="common">
+	  <div class="data common">
+		<h1 id="Start"></h1>
+	  </div>
+	  
+	  <div class="data common">
+		<h1 id="Ends"></h1>
+	  </div>
+	</div>
+
+	
+	<div class="rules common">
+	
+	<div class="rules_sec common">
+	<h1>General Rules for Cleaning:</h1>
+	<ul>
+	<li>Use disinfectant, cleaning rags/cloths, bleach, and a mop bucket for cleaning.</li>
+	<li>Ensure all areas are cleaned thoroughly and to a minimum standard.</li>
+	<li>Take care when using cleaning products and follow safety guidelines.</li>
+	<li>Communicate any issues or concerns regarding cleanliness with other household members.</li>
+	<li>Work efficiently and effectively to maintain a clean and hygienic living environment.</li>
+	</ul>
+	</div>
+	
+	<div class="rules_sec common">
+	<h1>Bin Clearance (Wednesday):</h1>
+	<ul>
+	<li>Clear the household bin as the first task of the day.</li>
+	<li>Ensure the common dustbin is emptied regularly as needed throughout the week.</li>
+	</ul>
+	</div>
+	
+	<div class="rules_sec common">
+	<h1>Bathroom Cleaning (Saturday - Tuesday):</h1>
+	<ul>
+	<li>Clean the bathroom thoroughly, paying special attention to mold removal.</li>
+	<li>Clean the basin, scrubbing away any stains or residues.</li>
+	<li>Mop the bathroom floor, ensuring it is free from dirt and grime.</li>
+	</ul>
+	</div>
+	
+	<div class="rules_sec common">
+	<h1>Hallway Cleaning (Saturday - Tuesday):</h1>
+	<ul>
+	<li>Vacuum the hallway to remove any dust or debris.</li>
+	<li>Wipe down skirting boards, removing any dirt or marks.</li>
+	<li>Remove spider webs from corners and ceilings.</li>
+	</ul>
+	</div>
+	
+	<div class="rules_sec common">
+	<h1>Kitchen Cleaning (Saturday - Tuesday):</h1>
+	<ul>
+	<li>Clean the kitchen thoroughly, including wiping down surfaces and appliances.</li>
+	<li>Clean the dining table, ensuring it is free from crumbs and spills.</li>
+	<li>Manage the dishes, ensuring they are washed and put away promptly.</li>
+	<li>Keep dried dishes in the drawer when the stack becomes full.</li>
+	<li>Clean the stove area, removing any grease or spills.</li>
+	<li>Remove spider webs and mop the kitchen floor.</li>
+	</ul>
+	</div>
+	
+	<div class="rules_sec common">
+	<h1>Laundry Area Cleaning (Saturday - Tuesday):</h1>
+	<ul>
+	<li>Clean the floor of the laundry area, removing any dirt or debris.</li>
+	</ul>
+	</div>
+	
+	<div class="rules_sec common">
+	<h1>Toilet Cleaning (Saturday - Tuesday):</h1>
+	<ul>
+	<li>Clean the toilet with bleach and disinfectant, ensuring it is sanitized.</li>
+	<li>Mop the toilet floor, leaving it clean and fresh.</li>
+	</ul>
+	</div>
+	
+	<center><h1 style="margin-top:20%;">Next week: </h1></center>
+	<div class="Name common" style="margin-top: 2%;">
+	  <h1 id="RPWN"></h1>
+	</div>
+	
+	</div>
+ </div>
+</section>
+
+</body>
+
+</html>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700;1,800&family=Stylish&display=swap');
+
+*{
+ margin:0;
+ padding:0;
+ font-family: 'Stylish', sans-serif;
+}
+
+section{
+ width: 100%;
+ height: auto;
+ background: #fff;
+}
+
+.common{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.Nav_bar{
+ width: 100%;
+ height: 10%;
+ background-color: #454545;
+ color: #fff;
+}
+
+.Nav_bar h1{
+ font-size: 2em;
+}
+
+#image{
+ position: sticky;
+ width:100%;
+ height: 50%;
+ top:0;
+ z-index: -1;
+}
+
+section.sec1{
+ background: #B7B0A3;
+}
+
+.RPW{
+ padding: 0;
+ width: 60%;
+ height: 90%;
+ font-size 1em;
+ flex-direction: column;
+ background: #fff;
+ margin: 5% 0 5% 0; 
+}
+
+.RPW h1{
+ font-size:2.5em;
+}
+
+.Name{
+width: 100%;
+height: 10%;
+background: #FFDE9F;
+color: red;
+margin-top: 5%;
+}
+
+.data{
+ width: 50%;
+ height: 5vh;
+ padding: 5px;
+ background: blue;
+ color: #fff;
+ font-size: 10px;
+}
+
+.rules{
+ width: 100%;
+ height: auto;
+ flex-direction: column;
+ margin-bottom: 5%;
+}
+
+.rules_sec{
+ width: 80%;
+ height: auto;
+ flex-direction: column;
+ padding: 20px;
+ background: #FFF2D9;
+ margin-top: 3%;
+}
+
+.rules h1{
+ font-size: 2em;
+ margin-top: 2%;
+}
+
+.rules ul{
+width: 80%;
+ margin: 2% 0 2% 0;
+}
+
+.rules li{
+ font-size: 1.5em;
+}
+
+ @media only screen and (max-width:1200px){
+.RPW{
+ width: 80%;
+}
+
+#image{
+ height: 30%;
+}
+
+}
+
+
+</style>
+
+<script>
+List=["AABHAS","BISHESH","KRISHNA","SHYAM","SUNIL","SUSHIL"];
+const startDate = new Date('2024-03-20');
+Name = document.getElementById("RPW");
+Name_1 = document.getElementById("RPWN");
+
+SDate = document.getElementById("Start");
+EDate = document.getElementById("Ends");
+
+
+const currentDate = new Date();
+const BeginDate = new Date(currentDate);
+const EndsDate = new Date(currentDate);
+
+getWeeksDiff = function (date){
+  const currentDate = new Date();
+  const diffInMilliseconds = currentDate - date;
+  const diffInWeeks = diffInMilliseconds / (1000 * 60 * 60 * 24 * 7);
+  const daysLeft = Math.floor((diffInMilliseconds % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+  BeginDate.setDate(currentDate.getDate() - daysLeft);
+  EndsDate.setDate(currentDate.getDate() + (7-daysLeft));
+  SDate.innerHTML = "Started from: "+ get_date_val(BeginDate);
+  EDate.innerHTML = "Ends on: " + get_date_val(EndsDate);
+  return Math.round(Math.floor(diffInWeeks));
+}
+
+get_date_val =  function(date) {
+const year = date.getFullYear();
+const month = String(date.getMonth() + 1).padStart(2, "0");
+const day = String(date.getDate()).padStart(2, "0");
+const formattedDate = `${day}/${month}/${year}`;
+return(formattedDate);
+}
+
+
+Week_Num = getWeeksDiff(startDate);
+Num = Week_Num%6;
+
+
+Name.innerHTML = List[Num];
+
+if (List[Num] == List[-1]){
+  Name_1.innerHTML = List[0];
+ }else{
+ Name_1.innerHTML = List[Num+1];
+ }
+</script>
