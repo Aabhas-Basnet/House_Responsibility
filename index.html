@@ -249,7 +249,7 @@ getWeeksDiff = function (date){
   const diffInWeeks = diffInMilliseconds / (1000 * 60 * 60 * 24 * 7);
   const daysLeft = Math.floor((diffInMilliseconds % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
   BeginDate.setDate(currentDate.getDate() - daysLeft);
-  EndsDate.setDate(currentDate.getDate() + (7-daysLeft));
+  EndsDate.setDate(currentDate.getDate() + (6-daysLeft));
   SDate.innerHTML = "Started from: "+ get_date_val(BeginDate);
   EDate.innerHTML = "Ends on: " + get_date_val(EndsDate);
   return Math.round(Math.floor(diffInWeeks));
